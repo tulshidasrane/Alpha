@@ -1,0 +1,39 @@
+ 
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap ; 
+    justify-content: center;
+     align-items: center; 
+    background-color: aqua;
+    height:  100vh;
+     align-content: center; 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.box1{
+     height: 234px;
+    /* width: 345px;  */
+    background-color: blue;
+    border: 2px solid black;
+    /* clear: left; */
+    /* order: 3; */
+    /* align-self: flex-end; */
+    flex-grow: 3;
+    flex-basis: 200px;
+}
+.box2{ 
+     height: 234px;
+    /* width: 345px;  */
+    background-color: red;
+    border: 2px solid black;
+    flex-grow: 2;
+    flex-shrink: initial; 
+}
+
+
